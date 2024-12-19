@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1f7980;
+  }
+  
+  .container {
+    background: rgb(117, 119, 231);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #572020;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #010d1a;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error {
+    color: rgb(167, 9, 9);
+    font-size: 0.9em;
+    display: block;
+    margin-top: 5px;
+  }
+  
+  #result {
+    font-family: fantasy;
+    margin-top: 20px;
+    text-align: left;
+    font-size: 1.2em;
+    color: green;
+  }
+  #feedbackImage {
+      display: block; /* Ensures the image is treated as a block element (not inline) */
+      max-width: 100%; /* Prevents the image from overflowing its container */
+      height: auto; /* Maintains the aspect ratio of the image */
+      margin: 10px auto; /* Centers the image horizontally with margin */
+      border: 2px solid #ccc; /* Optional: Adds a border around the image */
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow */
+    }
+
